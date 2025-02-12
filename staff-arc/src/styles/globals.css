@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #004aad;
+}
